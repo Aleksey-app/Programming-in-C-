@@ -51,4 +51,3 @@
  
      Пример карты:
  ![Пример](https://user-images.githubusercontent.com/71906604/170692838-5162544d-4198-4998-b627-ed77ee7eedad.png)
-
