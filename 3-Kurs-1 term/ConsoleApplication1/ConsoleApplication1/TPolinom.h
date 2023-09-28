@@ -4,11 +4,19 @@
 
 using namespace std;
 
+enum EPrintMode
+{
+	EPrintModeClassic,
+	EPrintModeCanonic,
+};
 class TPolinom
 {
+	EPrintMode printMode;
 	number a, b, c;
 public:
 	TPolinom(number,number,number);
 	friend ostream& operator << (ostream&, TPolinom&);
+	number value(number);
+	void setPrintMod(EPrintMode);
 };
 
