@@ -1,2 +1,5 @@
 ﻿  TPolinom.cpp
-  ConsoleApplication1.vcxproj -> C:\Users\it-4elovek\source\repos\Aleksey-app\3-Kurs-1 term\ConsoleApplication1\Debug\ConsoleApplication1.exe
+C:\Users\worker-it\source\repos\Aleksey-app\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(31,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\worker-it\source\repos\Aleksey-app\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(32,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\worker-it\source\repos\Aleksey-app\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(42,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\worker-it\source\repos\Aleksey-app\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\Debug\ConsoleApplication1.exe
