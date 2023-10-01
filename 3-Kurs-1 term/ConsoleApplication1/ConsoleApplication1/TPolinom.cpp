@@ -12,17 +12,14 @@ TPolinom::TPolinom(number x,number y,number z)
 	b = y;
 	c = z;
 }
-
 number TPolinom::value(number x)
 {
 	return a*x*x+b*x+c;
 }
-
 void TPolinom::setPrintMod(EPrintMode m)
 {
 	printMode = m;
 }
-
 void TPolinom::discremenant(int a, int b, int c)
 {
 	int Disc = b * b - 4 * a * c;
@@ -44,7 +41,6 @@ void TPolinom::discremenant(int a, int b, int c)
 		cout << "X2 = " << part << "+" << complex << "i" << endl;
 	}
 }
-
 ostream& operator<<(ostream& os, TPolinom& p)
 {
 	if (p.printMode == EPrintModeClassic)

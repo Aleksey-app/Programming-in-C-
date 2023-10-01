@@ -8,7 +8,6 @@ using namespace std;
 TApplication::TApplication()
 {
 }
-
 int TApplication::exec()
 {
 	int ch;
@@ -85,7 +84,6 @@ int TApplication::menu()
 	}
 	return ch;
 }
-
 int TApplication::clearA()
 {
 	int A;
