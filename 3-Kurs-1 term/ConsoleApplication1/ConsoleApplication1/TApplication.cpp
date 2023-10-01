@@ -19,8 +19,7 @@ int TApplication::exec()
 		switch (ch)
 		{
 		case 1:
-			cout << "a= ";
-			cin >> a;
+			a = clearA();
 			cout << "b= ";
 			cin >> b;
 			cout << "c= ";
@@ -85,4 +84,25 @@ int TApplication::menu()
 		else break;
 	}
 	return ch;
+}
+
+int TApplication::clearA()
+{
+	int A;
+	while(true) {
+		cout << "Set values to the a" << endl;
+		cin >> A;
+		if (cin.fail()) {
+			cout << "number" << endl;
+			cin.clear();
+			cin.ignore(32767, '\n');
+			continue;
+		}
+		if (A == 0) {
+			cout << "is not equal to 0" << endl;
+			continue;
+		}
+		else break;
+	}
+	return A;
 }

@@ -7,5 +7,6 @@ public:
 	int exec();
 private:
 	int menu();
+	int clearA();
 };
 

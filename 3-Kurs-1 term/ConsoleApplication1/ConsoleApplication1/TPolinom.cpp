@@ -48,9 +48,9 @@ void TPolinom::discremenant(int a, int b, int c)
 ostream& operator<<(ostream& os, TPolinom& p)
 {
 	if (p.printMode == EPrintModeClassic)
-		os << p.a << "x^2+" << p.b << "x+" << p.c << "=0";
+		os << p.a << "x^2+" << p.b << "x+" << p.c;
 	else {
-
+		os << p.a << "x^2+" << p.b << "x+" << p.c << "=0";
 	}
 	return os;
 }
