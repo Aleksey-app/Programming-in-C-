@@ -153,11 +153,13 @@
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="TApplication.cpp" />
+    <ClCompile Include="TComplex.cpp" />
     <ClCompile Include="TPolinom.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="number.h" />
     <ClInclude Include="TApplication.h" />
+    <ClInclude Include="TComplex.h" />
     <ClInclude Include="TPolinom.h" />
   </ItemGroup>
   <ItemGroup>

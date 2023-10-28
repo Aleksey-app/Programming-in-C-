@@ -35,7 +35,7 @@ int TApplication::exec()
 			break;
 		case 3: {
 			TPolinom p(a, b, c);
-			p.discremenant(a, b, c); }
+			p.discremenant(); }
 			break;
 		case 4:
 		{

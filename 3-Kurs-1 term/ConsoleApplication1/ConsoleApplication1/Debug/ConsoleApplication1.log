@@ -1,9 +1,7 @@
-﻿  ConsoleApplication1.cpp
-  TApplication.cpp
+﻿  TApplication.cpp
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TApplication.cpp(38,26): error C2664: "void TPolinom::discremenant(double,double,double)": невозможно преобразовать аргумент 1 из "number" в "double"
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TApplication.cpp(38,19): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.h(19,7): message : см. объявление "TPolinom::discremenant"
+  TComplex.cpp
   TPolinom.cpp
-C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(28,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(29,26): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(39,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
   Создание кода...
-  LINK : не найден или не выполнена сборка C:\Users\user#\Source\Repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\Debug\ConsoleApplication1.exe при последней инкрементной компоновке; выполняется полная компоновка
-  ConsoleApplication1.vcxproj -> C:\Users\user#\Source\Repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\Debug\ConsoleApplication1.exe

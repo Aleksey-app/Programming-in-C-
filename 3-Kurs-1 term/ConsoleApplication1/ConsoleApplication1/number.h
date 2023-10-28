@@ -1,4 +1,4 @@
 #pragma once
-
-typedef int number;
-
+#include"TComplex.h"
+//typedef double number;
+typedef TComplex number;

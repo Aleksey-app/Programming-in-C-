@@ -14,13 +14,6 @@
       <FileName>TPolinom.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Typedef Name="number" Collapsed="true">
-    <Position X="1.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>number.h</FileName>
-    </TypeIdentifier>
-  </Typedef>
   <Enum Name="EPrintMode">
     <Position X="7.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>

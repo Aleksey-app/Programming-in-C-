@@ -1,9 +1,7 @@
 #pragma once
 #include <iostream>
 #include "number.h"
-
 using namespace std;
-
 enum EPrintMode
 {
 	EPrintModeClassic,
@@ -18,6 +16,6 @@ public:
 	friend ostream& operator << (ostream&, TPolinom&);
 	number value(number);
 	void setPrintMod(EPrintMode);
-	void discremenant(int a, int b, int c);
+	void discremenant();
 };
 
