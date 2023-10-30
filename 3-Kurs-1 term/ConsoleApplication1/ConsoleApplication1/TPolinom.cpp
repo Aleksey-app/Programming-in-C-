@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include "TPolinom.h"
+#include "TComplex.h"
 
 using std::cout;
 using std::endl;
@@ -12,31 +13,29 @@ TPolinom::TPolinom(number x,number y,number z)
 	b = y;
 	c = z;
 }
+
 number TPolinom::value(number x)
 {
-	return a*x*x+b*x+c;
+	return a * x * x + b * x + c;
 }
 void TPolinom::setPrintMod(EPrintMode m)
 {
 	printMode = m;
 }
-void TPolinom::discremenant()
+void TPolinom::discremenant(TPolinom q)
 {
-	double Disc = b * b - 4 * a * c;
-	int x1, X2;
-	if (Disc > 0) {
-		x1 = (-b + sqrt(Disc)) / (2 * a);
-		X2 = (-b - sqrt(Disc)) / (2 * a);
-		cout << "X1 = " << x1 << endl;
-		cout << "X2 = " << X2 << endl;
+	number Disc = b * b - 4 * a * c;
+	/*if (Disc > 0) {
+		cout << "X1 = " << (-b + sqrt(Disc)) / (2 * a) << endl;
+		cout << "X2 = " << (-b - sqrt(Disc)) / (a + a) << endl;
 	}
 	else if (Disc == 0) {
-		x1 = -b / (2 * a);
-		cout << "X1 = X2 = " << x1 << endl;
+		cout << "X1 = X2 = " << -b / (2 * a) << endl;
 	}
 	else {
 		cout << "There are no real roots" << endl;
-	}
+	}*/
+	cout << Disc << "  Disc>0=" << (Disc > 0) << "  Disc==0=" << (Disc == 0) << endl;
 }
 ostream& operator<<(ostream& os, TPolinom& p)
 {

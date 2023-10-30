@@ -16,6 +16,6 @@ public:
 	friend ostream& operator << (ostream&, TPolinom&);
 	number value(number);
 	void setPrintMod(EPrintMode);
-	void discremenant();
+	void discremenant(TPolinom);
 };
 

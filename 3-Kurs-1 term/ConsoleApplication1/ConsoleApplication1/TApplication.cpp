@@ -11,7 +11,7 @@ TApplication::TApplication()
 int TApplication::exec()
 {
 	int ch;
-	number a = 1, b = 2, c = 1;
+	number a = 1 , b = 2, c = 1;
 	while (true)
 	{
 		ch = menu();
@@ -35,7 +35,8 @@ int TApplication::exec()
 			break;
 		case 3: {
 			TPolinom p(a, b, c);
-			p.discremenant(); }
+			p.discremenant(p); 
+		}
 			break;
 		case 4:
 		{

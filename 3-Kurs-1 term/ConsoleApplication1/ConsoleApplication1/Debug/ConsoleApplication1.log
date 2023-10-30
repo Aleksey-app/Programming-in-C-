@@ -1,7 +1,9 @@
 ﻿  TApplication.cpp
-C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TApplication.cpp(38,26): error C2664: "void TPolinom::discremenant(double,double,double)": невозможно преобразовать аргумент 1 из "number" в "double"
-C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TApplication.cpp(38,19): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.h(19,7): message : см. объявление "TPolinom::discremenant"
   TComplex.cpp
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TComplex.cpp(51,10): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TComplex.cpp(56,10): warning C4244: return: преобразование "double" в "int", возможна потеря данных
   TPolinom.cpp
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(38,42): error C2679: бинарный ">": не найден оператор, принимающий правый операнд типа "int" (или приемлемое преобразование отсутствует)
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TComplex.h(15,6): message : может быть "int TComplex::operator >(TComplex &)"
+C:\Users\user#\source\repos\Programming-in-C-\3-Kurs-1 term\ConsoleApplication1\ConsoleApplication1\TPolinom.cpp(38,42): message : при попытке сопоставить список аргументов "(number, int)"
   Создание кода...
