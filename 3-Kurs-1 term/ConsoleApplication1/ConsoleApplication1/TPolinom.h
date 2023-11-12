@@ -17,5 +17,6 @@ public:
 	number value(number);
 	void setPrintMod(EPrintMode);
 	void discremenant(TPolinom);
+	void print_complex();
 };
 

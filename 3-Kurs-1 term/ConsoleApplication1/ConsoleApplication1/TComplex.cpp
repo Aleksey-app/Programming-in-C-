@@ -13,6 +13,13 @@ TComplex::TComplex(int v)
 	im = 0;
 }
 
+TComplex TComplex::get() const
+{
+	TComplex temp(re, im);
+	return temp;
+
+}
+
 TComplex TComplex::operator*(TComplex c)
 {
 	TComplex temp;
@@ -46,19 +53,19 @@ TComplex TComplex::operator/(TComplex c)
 	return temp;
 }
 
-int TComplex::operator>(TComplex c)
-{
-	return c.re;
-}
-
-int TComplex::operator==(TComplex c)
-{
-	return c.re;
-}
-
 bool TComplex::operator==(TComplex& c)
 {
 	return ((re == c.re)) && (im == c.im);
+}
+
+double TComplex::modul()
+{
+	return pow(re*re+im*im,0.5);
+}
+
+double TComplex::argument()
+{
+	return atan2(im,re)*180/3.14159;
 }
 
 istream& operator>>(istream& is, TComplex& c)

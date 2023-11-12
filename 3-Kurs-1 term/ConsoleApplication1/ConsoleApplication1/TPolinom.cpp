@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+#include <math.h>
 #include "TPolinom.h"
 #include "TComplex.h"
 
@@ -13,7 +13,6 @@ TPolinom::TPolinom(number x,number y,number z)
 	b = y;
 	c = z;
 }
-
 number TPolinom::value(number x)
 {
 	return a * x * x + b * x + c;
@@ -35,7 +34,15 @@ void TPolinom::discremenant(TPolinom q)
 	else {
 		cout << "There are no real roots" << endl;
 	}*/
-	cout << Disc << "  Disc>0=" << (Disc > 0) << "  Disc==0=" << (Disc == 0) << endl;
+	cout << Disc << endl <<
+}
+void TPolinom::print_complex()
+{
+		if (im >= 0) {
+			cout << re << "+" << im << "i" << endl;
+		}
+		else
+			cout << re << im << "i" << endl;
 }
 ostream& operator<<(ostream& os, TPolinom& p)
 {
